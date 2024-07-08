@@ -1,0 +1,17 @@
+{
+  "name": "websocket_chat",
+  "version": "1.0.0",
+  "description": "Este repositório contém a implementação de um chat em tempo real utilizando WebSocket, desenvolvido a fins de estudo.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "node --watch src/socketServer.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2",
+    "socket.io": "^4.7.5"
+  }
+}
